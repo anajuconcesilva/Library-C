@@ -8,11 +8,11 @@
 
 ### 💻 Linguagem de Desenvolvimento
 
-[cite_start]O projeto foi desenvolvido **exclusivamente em linguagem C**.
+O projeto foi desenvolvido **exclusivamente em linguagem C**.
 
 ### ✨ Funcionalidades
 
-[cite_start]O sistema é uma aplicação console, contendo um menu interativo que permite realizar as seguintes operações:
+O sistema é uma aplicação console, contendo um menu interativo que permite realizar as seguintes operações:
 
 * **1. [cite_start]Cadastro de Livros:** Permite adicionar novos livros ao acervo (até 100 livros). [cite_start]Inclui verificação para que o Código Único (ID) não seja duplicado.
 * **2. [cite_start]Consulta de Livros:** Permite listar todos os livros cadastrados ou buscar um livro específico a partir do código (ID).
@@ -23,11 +23,11 @@
 
 ### ⚙️ Estrutura de Dados
 
-[cite_start]Os dados da biblioteca (livros e usuários) são organizados por meio de `structs`, e as operações são implementadas por funções.
+Os dados da biblioteca (livros e usuários) são organizados por meio de `structs`, e as operações são implementadas por funções.
 
 ### 🚀 Como Compilar e Executar
 
-1.  [cite_start]**Salve o código:** Certifique-se de que o código-fonte esteja salvo em um único arquivo com a extensão `.c` (e.g., `biblioteca.c`).
+1.  **Salve o código:** Certifique-se de que o código-fonte esteja salvo em um único arquivo com a extensão `.c` (e.g., `biblioteca.c`).
 2.  **Compile:** Use um compilador C (como GCC) no terminal:
     ```bash
     gcc biblioteca.c -o biblioteca
