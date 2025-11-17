@@ -14,12 +14,12 @@ O projeto foi desenvolvido **exclusivamente em linguagem C**.
 
 O sistema é uma aplicação console, contendo um menu interativo que permite realizar as seguintes operações:
 
-* **1. [cite_start]Cadastro de Livros:** Permite adicionar novos livros ao acervo (até 100 livros). [cite_start]Inclui verificação para que o Código Único (ID) não seja duplicado.
-* **2. [cite_start]Consulta de Livros:** Permite listar todos os livros cadastrados ou buscar um livro específico a partir do código (ID).
-* **3. [cite_start]Empréstimo de Livros:** Permite registrar o empréstimo, atualizando a quantidade disponível.
-* **4. [cite_start]Devolução de Livros:** Permite registrar a devolução, atualizando a quantidade disponível e removendo a pessoa do registro de empréstimos.
-* **5. [cite_start]Remoção de Livros:** Permite a exclusão de um livro cadastrado[cite: 43].
-* **6. [cite_start]Encerrar o Programa:** Finaliza a execução da aplicação (`return 0` no `main`).
+* **1. Cadastro de Livros:** Permite adicionar novos livros ao acervo (até 100 livros). [cite_start]Inclui verificação para que o Código Único (ID) não seja duplicado.
+* **2. Consulta de Livros:** Permite listar todos os livros cadastrados ou buscar um livro específico a partir do código (ID).
+* **3. Empréstimo de Livros:** Permite registrar o empréstimo, atualizando a quantidade disponível.
+* **4. Devolução de Livros:** Permite registrar a devolução, atualizando a quantidade disponível e removendo a pessoa do registro de empréstimos.
+* **5. Remoção de Livros:** Permite a exclusão de um livro cadastrado.
+* **6. Encerrar o Programa:** Finaliza a execução da aplicação (`return 0` no `main`).
 
 ### ⚙️ Estrutura de Dados
 
