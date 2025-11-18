@@ -10,8 +10,6 @@
 
 O projeto foi desenvolvido **exclusivamente em linguagem C**.
 
----
-
 ### ✨ Funcionalidades
 
 O sistema é uma aplicação console, contendo um menu interativo que permite realizar as seguintes operações:
@@ -23,13 +21,9 @@ O sistema é uma aplicação console, contendo um menu interativo que permite re
 * **5. Remoção de Livros:** Permite a exclusão de um livro cadastrado.
 * **6. Encerrar o Programa:** Finaliza a execução da aplicação (`return 0` no `main`).
 
----
-
 ### ⚙️ Estrutura de Dados
 
 Os dados da biblioteca (livros e usuários) são organizados por meio de `structs`, e as operações são implementadas por funções.
-
----
 
 ### 🚀 Como Compilar e Executar
 
@@ -43,5 +37,3 @@ Os dados da biblioteca (livros e usuários) são organizados por meio de `struct
     ./biblioteca
     ```
     *(Em sistemas Windows, o comando pode ser `biblioteca.exe`)*
-
-    ---
