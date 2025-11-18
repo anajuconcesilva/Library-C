@@ -10,6 +10,8 @@
 
 O projeto foi desenvolvido **exclusivamente em linguagem C**.
 
+---
+
 ### ✨ Funcionalidades
 
 O sistema é uma aplicação console, contendo um menu interativo que permite realizar as seguintes operações:
@@ -25,6 +27,8 @@ O sistema é uma aplicação console, contendo um menu interativo que permite re
 
 Os dados da biblioteca (livros e usuários) são organizados por meio de `structs`, e as operações são implementadas por funções.
 
+---
+
 ### 🚀 Como Compilar e Executar
 
 1.  **Salve o código:** Certifique-se de que o código-fonte esteja salvo em um único arquivo com a extensão `.c` (e.g., `biblioteca.c`).
@@ -37,3 +41,5 @@ Os dados da biblioteca (livros e usuários) são organizados por meio de `struct
     ./biblioteca
     ```
     *(Em sistemas Windows, o comando pode ser `biblioteca.exe`)*
+
+    ---
