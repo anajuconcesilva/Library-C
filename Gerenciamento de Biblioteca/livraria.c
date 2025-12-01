@@ -138,7 +138,7 @@ void exibir_detalhes_livro(LIVRO *l) {
 }
 
 void cadastrar_livro(BIBLIOTECA *b) {
-    printf("## 1. Cadastro de Livros\n");
+    printf("1. Cadastro de Livros\n");
 
     if (b->contador_livros >= MAX_LIVROS) {
         printf("ERRO: A biblioteca atingiu o limite máximo de %d livros.\n", MAX_LIVROS);
@@ -196,7 +196,7 @@ void cadastrar_livro(BIBLIOTECA *b) {
 }
 
 void consultar_livros(BIBLIOTECA *b) {
-    printf("## 2. Consulta de Livros\n");
+    printf("2. Consulta de Livros\n");
 
     if (b->contador_livros == 0) {
         printf("AVISO: Nenhuma livro cadastrado na biblioteca.\n");
@@ -245,7 +245,7 @@ void consultar_livros(BIBLIOTECA *b) {
 }
 
 void emprestar_livro(BIBLIOTECA *b) {
-    printf("## 3. Empréstimo de Livros\n");
+    printf("3. Empréstimo de Livros\n");
 
     int id_busca;
     printf("Digite o ID do livro a ser emprestado: ");
@@ -296,7 +296,7 @@ void emprestar_livro(BIBLIOTECA *b) {
 }
 
 void devolver_livro(BIBLIOTECA *b) {
-    printf("## 4. Devolução de Livros\n");
+    printf("4. Devolução de Livros\n");
 
     int id_busca;
     printf("Digite o ID do livro a ser devolvido: ");
@@ -346,7 +346,7 @@ void devolver_livro(BIBLIOTECA *b) {
 }
 
 void remover_livro(BIBLIOTECA *b) {
-    printf("## 5. Remoção de Livros\n");
+    printf("5. Remoção de Livros\n");
 
     if (b->contador_livros == 0) {
         printf("AVISO: Nenhuma livro cadastrado para remover.\n");
@@ -391,3 +391,4 @@ void remover_livro(BIBLIOTECA *b) {
 
     printf("\nSUCESSO: Livro '%s' (ID: %d) excluído do acervo.\n", titulo_removido, id_busca);
 }
+
